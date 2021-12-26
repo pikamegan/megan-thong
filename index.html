@@ -12,8 +12,48 @@
 </head>
 <body>
     
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-bg">
+        <div class="container-fluid">
+            <a class="navbar-brand mb-0 h-1"> <!-- make this clickable, change img class to align-text-top, and when clicked put hello in various languages beneath -->
+                <img src="profile.svg" alt="Profile picture" width="38" height="38" class="d-inline-block mx-1">
+              Megan Thong
+            </a>
 
+            <a class="navbar-brand mb-0 h-1 bd-highlight d-none d-md-block"> 
+                <img src="pin.svg" alt="Location pin" width="32" height="32" class="d-inline-block mx-1">
+                Singapore
+            </a>
+            <a class="navbar-brand mb-0 h-1 bd-highlight d-none d-md-block" href="https://github.com/pikamegan"> 
+                <img src="github.svg" alt="Profile picture" width="32" height="32" class="d-inline-block mx-1">
+                /pikamegan
+            </a>
+            <a class="navbar-brand mb-0 h-1 bd-highlight d-none d-md-block" href="https://www.linkedin.com/in/megan-thong/"> 
+                <img src="linkedin.svg" alt="Profile picture" width="32" height="32" class="d-inline-block mx-1">
+                /megan-thong
+            </a>
+            <a class="navbar-brand mb-0 h-1 bd-highlight d-none d-md-block" href="mailto:megan.thong.jia.yi@gmail.com"> 
+                <img src="mail.svg" alt="Profile picture" width="32" height="32" class="d-inline-block mx-1">
+            </a>
 
+        </div>
+    </nav>
+
+    <div class="container mt-4 pt-4">
+        <nav>
+            <div class="nav nav-tabs justify-content-around" id="nav-tab" role="tablist">
+              <button class="nav-link nice-tab active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">About Me</button>
+              <button class="nav-link nice-tab" id="nav-skills-tab" data-bs-toggle="tab" data-bs-target="#nav-skills" type="button" role="tab" aria-controls="nav-skills" aria-selected="false">Skills</button>
+              <button class="nav-link nice-tab" id="nav-proj-tab" data-bs-toggle="tab" data-bs-target="#nav-proj" type="button" role="tab" aria-controls="nav-proj" aria-selected="false">Projects</button>
+              <button class="nav-link nice-tab" id="nav-exp-tab" data-bs-toggle="tab" data-bs-target="#nav-exp" type="button" role="tab" aria-controls="nav-exp" aria-selected="false">Experience</button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-skills-tab">...</div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-proj-tab">...</div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-exp-tab">...</div>
+          </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

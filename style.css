@@ -1,0 +1,17 @@
+.navbar-bg {
+    background-color: #A795B6;
+}
+
+.nice-tab.active {
+    background: transparent !important;
+    border-color: transparent !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.51) !important;    
+    border-radius: 0px !important;
+}
+
+.nice-tab:hover {
+    background: transparent !important;
+    border-color: transparent !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.51) !important;    
+    border-radius: 0px !important;
+}
