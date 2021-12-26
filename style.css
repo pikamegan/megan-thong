@@ -2,7 +2,12 @@
     background-color: #A795B6;
 }
 
+.nice-tab {
+    color: rgba(0, 0, 0, 0.51);
+}
+
 .nice-tab.active {
+    color: black !important;
     background: transparent !important;
     border-color: transparent !important;
     border-bottom: 1px solid rgba(0, 0, 0, 0.51) !important;    
